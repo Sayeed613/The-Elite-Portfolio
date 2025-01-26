@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Unica+One&display=swap');
+@import url("https://fonts.cdnfonts.com/css/blanquotey");
+
+
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-section] {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+body {
+  scrollbar-width: none;
+  background-color: black;
+  font-family: "Bebas Neue", sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+body.loading {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s ease-in-out;
+}
+
+body:not(.loading) {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}

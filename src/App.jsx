@@ -5,7 +5,6 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Education from "./pages/Education";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Portfolio from "./pages/Portfolio"
 import LoadingScreen from './components/LoadingScreen';  // Import the loading screen component
 
@@ -62,9 +61,7 @@ export default function App() {
             <section data-scroll-section className="mt-20">
               <Home />
             </section>
-            <section data-scroll-section>
-              <About />
-            </section>
+
             <section data-scroll-section>
               <Education />
             </section>

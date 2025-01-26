@@ -84,14 +84,7 @@ export default function Navbar() {
               Home
             </button>
           </div>
-          <div className="menu-item">
-            <button
-              onClick={() => handleScrollTo("about")}
-              className={`text-white text-[10vw] sm:text-[6vw] leading-none text-center transition-all duration-300 hover:tracking-widest ${isActive("/about") ? "border-b-2 border-red-500" : ""}`}
-            >
-              About
-            </button>
-          </div>
+
           <div className="menu-item">
             <button
               onClick={() => handleScrollTo("education")}

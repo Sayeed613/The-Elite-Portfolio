@@ -19,11 +19,11 @@ const images = [
         src: "https://sayeedahmed08.netlify.app/assets/images/project-7.png"
     },
     {
-        id:`001`,
+        id: 11,
         title:"Uber clone",
         link:"https://uber-clone-api8.onrender.com/",
         src:"https://i.postimg.cc/htKFcFJr/Screenshot-2025-01-26-170720.png"
-    }
+    },
     {
         id: 10,
         title: "Hulk Fitness",

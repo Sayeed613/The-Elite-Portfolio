@@ -9,6 +9,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    assetsInclude: ['**/*.gltf']
+    assetsInclude: ['**/*.gltf', '**/*.bin']
   }
 })

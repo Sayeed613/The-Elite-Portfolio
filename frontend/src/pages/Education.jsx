@@ -117,16 +117,19 @@ export default function Education() {
               Jain college, graduating in 2024.
             </p>
             <button
-              onClick={() => {
-                const link = document.createElement("a");
-                link.href = "/resume.pdf";
-                link.download = "My_Resume.pdf";
-                link.click();
-              }}
-              className="hoverable mt-10 px-8 py-2 font-extralight text-sm border-[0.1px] border-gray-400  hover:bg-[#adadad] hover:text-gray-800 transition duration-300 ease-in-out"
-            >
-              DOWNLOAD MY RESUME
-            </button>
+  onClick={() => {
+    const link = document.createElement("a");
+    link.href = "/resume/Sayeed Ahmed.pdf";
+    link.download = "Sayeed_Ahmed_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
+  className="hoverable mt-10 px-8 py-2 font-extralight text-sm border-[0.1px] border-gray-400 hover:bg-[#adadad] hover:text-gray-800 transition duration-300 ease-in-out"
+>
+  DOWNLOAD MY RESUME
+</button>
+
           </div>
         </div>
       </div>

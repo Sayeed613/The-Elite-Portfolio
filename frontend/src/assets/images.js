@@ -6,12 +6,7 @@ const images = [
         link: "https://omdb-sayeed613.netlify.app/",
         src: "https://i.postimg.cc/ZK15Wm7W/Screenshot-2024-11-30-133838.png"
     },
-    {
-        id: 17,
-        title: "figma design",
-        link: "https://www.figma.com/design/Eh32AoB4OzJfAShKJaZ1Q2/Nike?node-id=0-1&node-type=canvas&t=CWrPS92HqRPv44NP-0",
-        src: "https://i.postimg.cc/bJ9jwcG2/Screenshot-2024-11-30-134246.png"
-    },
+
     {
         id: 5,
         title: "Zara Clone",
@@ -47,6 +42,12 @@ const images = [
         title: "Tata Clip mern",
         link: "https://tata-clip-clone.vercel.app/",
         src: "https://i.postimg.cc/FF787T5L/project-12.png"
+    },
+    {
+        id: 17,
+        title: "figma design",
+        link: "https://www.figma.com/design/Eh32AoB4OzJfAShKJaZ1Q2/Nike?node-id=0-1&node-type=canvas&t=CWrPS92HqRPv44NP-0",
+        src: "https://i.postimg.cc/bJ9jwcG2/Screenshot-2024-11-30-134246.png"
     },
 
 ];

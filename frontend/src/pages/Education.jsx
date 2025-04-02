@@ -119,7 +119,7 @@ export default function Education() {
             <button
   onClick={() => {
     const link = document.createElement("a");
-    link.href = "/public/resume/SayeedAhmed.pdf";
+    link.href = "/public/resume/Sayeed Ahmed.pdf";
     link.download = "Sayeed_Ahmed_Resume.pdf";
     document.body.appendChild(link);
     link.click();
